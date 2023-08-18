@@ -7,7 +7,7 @@ import sys
 import warnings
 
 warnings.filterwarnings("ignore")
-sys.path.append("/home/sakulab/workspace/nakasone/ex/multi_task_learning_with_t5")
+sys.path.append("multi_task_learning_with_t5")
 
 import src.config as config
 from src.preprocess import preprocess_data

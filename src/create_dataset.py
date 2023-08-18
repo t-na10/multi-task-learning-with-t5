@@ -1,8 +1,12 @@
 import os
+import sys
 import shutil
 import subprocess
 from utils import jsonl_to_tsv, make_amazon_reviews_3labels
-from config import MARC_DIR, AMCD_DIR
+
+sys.path.append("multi_task_learning_with_t5")
+
+from src.config import MARC_DIR, AMCD_DIR
 
 # 以下のリンクをクローンする
 # https://github.com/amazon-science/amazon-multilingual-counterfactual-dataset/tree/main/data

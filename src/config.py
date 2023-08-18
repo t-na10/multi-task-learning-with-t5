@@ -4,7 +4,7 @@ import warnings
 warnings.filterwarnings("ignore")
 
 # path
-DIR = "/home/sakulab/workspace/nakasone/ex/multi_task_learning_with_t5"
+DIR = "multi_task_learning_with_t5"
 MARC_DIR = DIR + "/data/MARC"
 AMCD_DIR = DIR + "/data/AMCD"
 MODEL_DIR = DIR + "/models"
